@@ -1,0 +1,21 @@
+cff-version: 1.2.0
+message: "如果在教学或研究中使用了本项目，请按以下信息引用。If you use this project, please cite it as below."
+title: "guandan-card-engine: 掼蛋 (Guandan card engine)"
+type: software
+authors:
+  - family-names: Gao
+    given-names: Shuyao
+    email: "gaoshuyao.mk@gmail.com"
+    affiliation: "aSSIST University (Seoul School of Integrated Sciences and Technologies)"
+version: "1.0"
+date-released: "2026-10-14"
+license: MIT
+repository-code: "https://github.com/ShuyaoGao/guandan-card-engine"
+url: "https://shuyaogao.github.io/guandan-card-engine/"
+abstract: >-
+  A browser-only teaching demo (AI Teaching Demos): a browser-only teaching demo of Guandan, the popular two-deck partnership climbing game: level cards, the heart-level wild card, straight flushes, partner hand-over, tribute and return, and the A-level finish are all implemented. The JavaScript engine reproduces the Python engine move-by-move (including Python's set iteration order). AIs are rule-based (greedy / random), and a side panel shows which greedy rule fired at each step.
+keywords:
+  - course-demo
+  - card-game
+  - guandan
+  - game-engine

@@ -1,0 +1,29 @@
+{
+ "format": "cardgames/result/1",
+ "game": "guandan",
+ "title": "掼蛋",
+ "eval": {
+  "script": "evaluate.py team_match via tools/run_eval.py",
+  "seed": 2026,
+  "note": "每组换边各打一半；胜率 = 该智能体所在队伍赢的局数 / 总局数。各游戏强弱队结构不同，50% 即为同强度。",
+  "matchups": {
+   "greedy_vs_random": {
+    "desc": "贪心 vs 随机",
+    "games": 200,
+    "win_rate": 0.93,
+    "wilson95": [
+     0.8859,
+     0.9578
+    ]
+   }
+  }
+ },
+ "model": null,
+ "env": {
+  "python": "3.11.9",
+  "numpy": "2.4.6",
+  "torch": "2.13.0+cpu",
+  "platform": "Windows"
+ },
+ "elapsed_seconds": 4.9
+}
