@@ -9,6 +9,6 @@ window.DDZ_CREDITS = {
  "GH_USER": "ShuyaoGao",
  "REPO_NAME": "guandan-card-engine",
  "YEAR": "2026",
- "VERSION": "1.0",
+ "VERSION": "1.1",
  "UNIVERSITY_LOGO": ""
 };
